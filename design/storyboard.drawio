@@ -1,0 +1,41 @@
+<mxfile host="65bd71144e">
+    <diagram id="S4dcNhEg9uauxtraAsRx" name="Page-1">
+        <mxGraphModel dx="666" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="98" y="400" width="630" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.002;exitY=0.13;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.004;entryY=0.127;entryDx=0;entryDy=0;entryPerimeter=0;rounded=0;endArrow=none;endFill=0;" edge="1" parent="1" source="39" target="39">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="450" y="860" as="sourcePoint"/>
+                        <mxPoint x="530" y="860" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="255" y="460" width="316" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&lt;h1 style=&quot;font-size: 11px;&quot;&gt;Julianne's Burgers&lt;/h1&gt;&lt;p style=&quot;font-size: 11px;&quot;&gt;Select options below to customize your burger!&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="480" width="280" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="What size is your burger?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="530" width="260" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="big" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="570" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="extra big" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="570" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=11;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="580" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=11;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="580" width="10" height="10" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

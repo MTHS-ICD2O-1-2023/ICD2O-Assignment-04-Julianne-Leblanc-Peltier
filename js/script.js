@@ -10,11 +10,11 @@ let priceOfBurger = 0
 function myButtonClicked() {
   // ingredients variables
   const tomatoIngredient = document.getElementById("checkbox-tomato").checked
-/*  const cheeseIngredient = document.getElementById("checkbox-cheese").checked
+  const cheeseIngredient = document.getElementById("checkbox-cheese").checked
   const lettuceIngredient = document.getElementById("checkbox-lettuce").checked
   const mustardIngredient = document.getElementById("checkbox-mustard").checked
   const ketchupIngredient = document.getElementById("checkbox-ketchup").checked
-  const picklesIngredient = document.getElementById("checkbox-pickles").checked */
+  const picklesIngredient = document.getElementById("checkbox-pickles").checked
   // size variable
   const bigBurgerSize = document.getElementById("option-big-burger").checked
   // extra ingredients variables
@@ -65,6 +65,22 @@ function myButtonClicked() {
 
   if (cheeseIngredient == true) {
     document.getElementById("ingredients-used").innerHTML = "cheese"
+  }
+
+    if (lettuceIngredient == true) {
+    document.getElementById("ingredients-used").innerHTML = "lettuce"
+  }
+
+  if (mustardIngredient == true) {
+    document.getElementById("ingredients-used").innerHTML = "mustard"
+  }
+
+  if (ketchupIngredient == true) {
+    document.getElementById("ingredients-used").innerHTML = "ketchup"
+  }
+
+  if (picklesIngredient == true) {
+    document.getElementById("ingredients-used").innerHTML = "pickles"
   }
 
   // calculates TAX afterwards

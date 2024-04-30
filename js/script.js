@@ -27,12 +27,12 @@ function myButtonClicked() {
   } else if (twoExtraIngredients == true) {
     // process
     let priceOfBurger = priceOfBurger + 2.50
-  } else {
+  } else if (threeExtraIngredients == true) {
     // process
     let priceOfBurger = priceOfBurger + 3.750
+  } else { // if no extas are checked
+    let priceOfBurger = priceOfBurger + 0.00
   }
   // output
-  document.getElementById("end-price").innerHTML = "<div class="test"> la </div>Your total is: $" + priceOfBurger + (priceOfBurger * TAX)
+  document.getElementById("end-price").innerHTML = "Your total is: $" + priceOfBurger + (priceOfBurger * TAX)
 }
-
-*/

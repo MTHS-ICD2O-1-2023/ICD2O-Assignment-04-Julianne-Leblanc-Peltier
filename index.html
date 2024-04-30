@@ -30,28 +30,74 @@
           <div class="innerbody">
             <br />
             <p>
-              Want to know what movies you can see? Enter in your age to find out!
+              Fill out the below information to get the cost of your burger at Julianne's Burgers!
             </p>
+            Select ingredients below:
+            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+              <input type="checkbox" id="checkbox-tomato" class="mdl-checkbox__input">
+              <span class="mdl-checkbox__label">Tomato</span>
+            </label>
+            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+              <input type="checkbox" id="checkbox-cheese" class="mdl-checkbox__input">
+              <span class="mdl-checkbox__label">Cheese</span>
+            </label>
+            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+              <input type="checkbox" id="checkbox-lettuce" class="mdl-checkbox__input">
+              <span class="mdl-checkbox__label">Lettuce</span>
+            </label>
+            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+              <input type="checkbox" id="checkbox-mustard" class="mdl-checkbox__input">
+              <span class="mdl-checkbox__label">Mustard</span>
+            </label>
+            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+              <input type="checkbox" id="checkbox-ketchup" class="mdl-checkbox__input">
+              <span class="mdl-checkbox__label">Ketchup</span>
+            </label>
+            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+              <input type="checkbox" id="checkbox-pickles" class="mdl-checkbox__input">
+              <span class="mdl-checkbox__label">Pickles </span>
+            </label>
+            <br />
+            <br />
+            <p>
+              What size of burger?
+            </p>
+            <!-- Radio Button Positive -->
+            <form action="#">
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-positive">
+                <input type="radio" id="option-big-burger" class="mdl-radio__button" name="options" value="1" checked>
+                <span class="mdl-radio__label">Big - $13.50</span>
+              </label>
+              <!-- Radio Button Negative -->
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-negative">
+                <input type="radio" id="option-extra-big-burger" class="mdl-radio__button" name="options" value="2">
+                <span class="mdl-radio__label">Extra Big - $17.40</span>
+              </label>
+              <br />
               <br />
               <p>
-                Select what kind of number you would like.
+                Extras:
               </p>
-              <!-- Radio Button Positive -->
-              <form action="#">
-                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-positive">
-                  <input type="radio" id="option-positive" class="mdl-radio__button" name="options" value="1" checked>
-                  <span class="mdl-radio__label">Positive</span>
-                </label>
-                <!-- Radio Button Negative -->
-                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-negative">
-                  <input type="radio" id="option-negative" class="mdl-radio__button" name="options" value="2">
-                  <span class="mdl-radio__label">Negative</span>
-                </label>
+              <!-- Radio Button Negative -->
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-negative">
+                <input type="radio" id="option-one-extra" class="mdl-radio__button" name="options" value="2">
+                <span class="mdl-radio__label">1 Extra - $1.25</span>
+              </label>
+              <!-- Radio Button Negative -->
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-negative">
+                <input type="radio" id="option-two-extras" class="mdl-radio__button" name="options" value="2">
+                <span class="mdl-radio__label">2 Extras - $2.50</span>
+              </label>
+              <!-- Radio Button Negative -->
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-negative">
+                <input type="radio" id="option-three-extras" class="mdl-radio__button" name="options" value="2">
+                <span class="mdl-radio__label">3 Extras - $3.75</span>
+              </label>
               <!-- Accent-colored raised button with ripple -->
               <br />
               <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
                 onclick="myButtonClicked()">
-                Find Movie Type
+                Done
               </button>
             </form>
             <div id="movie-type"></div>

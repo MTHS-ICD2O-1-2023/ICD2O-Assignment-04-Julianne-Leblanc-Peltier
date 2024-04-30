@@ -6,24 +6,26 @@
 
 function myButtonClicked() {
   // variables
-  const alwaysOnButtonChecked = document.getElementById("option-positive").checked
+  const bigBurgerSize = document.getElementById("option-big-burger").checked
+  const oneExtraIngredient = document.getElementById("option-one-extra").checked
+  const twoExtraIngredients = document.getElementById("option-two-extras").checked
+  const threeExtraIngredients = document.getElementById("option-three-extras").checked
   const TAX = 0.13
   let priceOfBurger = 0
 
-  if (alwaysOnButtonChecked == true) {
+  if (bigBurgerSize == true) {
     // process
-    let priceOfBurger = priceOfBurger + 5.0
+    let priceOfBurger = priceOfBurger + 13.50
   } else {
     // process
-    let priceOfBurger = priceOfBuger = 7.50
+    let priceOfBurger = priceOfBuger = 17.40
   }
 
-  if (alwaysOnButtonChecked2 == true) {
+  if (oneExtraIngredient == true) {
     // process
-    let priceOfBurger = priceOfBurger + 1.20
-  }
-  else if (OnButtonCheck == true) {
-    .// process
+    let priceOfBurger = priceOfBurger + 1.250
+  } else if (twoExtraIngredients == true) {
+    // process
     let priceOfBurger = priceOfBurger + 2.50
   } else {
     // process

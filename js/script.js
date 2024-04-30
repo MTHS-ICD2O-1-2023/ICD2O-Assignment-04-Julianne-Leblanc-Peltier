@@ -5,10 +5,11 @@
 // This file contains the JS functions for index.html
 
 // variable
-let priceOfBurger = 0
 
 function myButtonClicked() {
   // ingredients variables
+  let priceOfBurger = 0
+
   const tomatoIngredient = document.getElementById("checkbox-tomato").checked
   const cheeseIngredient = document.getElementById("checkbox-cheese").checked
   const lettuceIngredient = document.getElementById("checkbox-lettuce").checked
@@ -28,12 +29,12 @@ function myButtonClicked() {
   // add price of basic burger
   if (bigBurgerSize == true) {
     // process
-    let priceOfBurger = priceOfBurger + 13.50
+    priceOfBurger = priceOfBurger + 13.50
     // output
     document.getElementById("size-of-burger").innerHTML = "Big Burger"
   } else {
     // process
-    let priceOfBurger = priceOfBurger + 17.40
+    priceOfBurger = priceOfBurger + 17.40
     // output
     document.getElementById("size-of-burger").innerHTML = "Extra Big Burger" 
   }
@@ -41,21 +42,21 @@ function myButtonClicked() {
   // additional fees if extras are true
   if (oneExtraIngredient == true) {
     // process
-    let priceOfBurger = priceOfBurger + 1.250
+    priceOfBurger = priceOfBurger + 1.250
     // output
     document.getElementById("extra-ingredients").innerHTML = "1 extra"
   } else if (twoExtraIngredients == true) {
     // process
-    let priceOfBurger = priceOfBurger + 2.50
+    priceOfBurger = priceOfBurger + 2.50
     // output
     document.getElementById("extra-ingredients").innerHTML = "2 extras"
   } else if (threeExtraIngredients == true) {
     // process
-    let priceOfBurger = priceOfBurger + 3.750
+    priceOfBurger = priceOfBurger + 3.750
     // output
     document.getElementById("extra-ingredients").innerHTML = "3 extras"
   } else { // if no extas are checked
-    let priceOfBurger = priceOfBurger + 0.00
+    priceOfBurger = priceOfBurger + 0.00
   }
 
   // print the ingredients previously listed
@@ -84,7 +85,7 @@ function myButtonClicked() {
   }
 
   // calculates TAX afterwards
-  let priceOfBurger = priceOfBurger + (priceOfBurger * TAX)
+  priceOfBurger = priceOfBurger + (priceOfBurger * TAX)
 
   // output
   document.getElementById("end-price").innerHTML = "Your total is: $" + priceOfBurger

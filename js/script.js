@@ -23,38 +23,53 @@ function myButtonClicked() {
   const threeExtraIngredients = document.getElementById("option-three-extras").checked
   const TAX = 0.13
 
+  document.getElementById("end-choices").innerHTML = "You've chosen: <br />" 
+
   // add price of basic burger
   if (bigBurgerSize == true) {
     // process
     let priceOfBurger = priceOfBurger + 13.50
+    // output
+    document.getElementById("size-of-burger").innerHTML = "Big Burger" 
   } else {
     // process
     let priceOfBurger = priceOfBurger + 17.40
+    // output
+    document.getElementById("size-of-burger").innerHTML = "Extra Big Burger" 
   }
 
   // additional fees if extras are true
   if (oneExtraIngredient == true) {
     // process
     let priceOfBurger = priceOfBurger + 1.250
+    // output
+    document.getElementById("extra-ingredients").innerHTML = "1 extra"
   } else if (twoExtraIngredients == true) {
     // process
     let priceOfBurger = priceOfBurger + 2.50
+    // output
+    document.getElementById("extra-ingredients").innerHTML = "2 extras"
   } else if (threeExtraIngredients == true) {
     // process
     let priceOfBurger = priceOfBurger + 3.750
+    // output
+    document.getElementById("extra-ingredients").innerHTML = "3 extras"
   } else { // if no extas are checked
     let priceOfBurger = priceOfBurger + 0.00
   }
 
   // print the ingredients previously listed
   if (tomatoIngredient == true) {
-    print("tomato")
+    document.getElementById("ingredients-used").innerHTML = "tomato"
+  }
+
+  if (cheeseIngredient == true) {
+    document.getElementById("ingredients-used").innerHTML = "cheese"
   }
 
   // calculates TAX afterwards
-  priceOfBurger = priceOfBurger + (priceOfBurger * TAX)
+  let priceOfBurger = priceOfBurger + (priceOfBurger * TAX)
 
   // output
-  document.getElementById("end-choices").innerHTML = "You've chosen: <br />" 
   document.getElementById("end-price").innerHTML = "Your total is: $" + priceOfBurger
 }

@@ -30,7 +30,7 @@ function myButtonClicked() {
     // process
     let priceOfBurger = priceOfBurger + 13.50
     // output
-    document.getElementById("size-of-burger").innerHTML = "Big Burger" 
+    document.getElementById("size-of-burger").innerHTML = "Big Burger"
   } else {
     // process
     let priceOfBurger = priceOfBurger + 17.40

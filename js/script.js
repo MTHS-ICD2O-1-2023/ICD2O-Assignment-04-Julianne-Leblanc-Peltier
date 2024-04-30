@@ -29,10 +29,10 @@ function myButtonClicked() {
     let priceOfBurger = priceOfBurger + 2.50
   } else {
     // process
-    let priceOfBurger = priceOfBurger + 3.75
+    let priceOfBurger = priceOfBurger + 3.750
   }
   // output
-  document.getElementById("end-price").innerHTML = "Your total is: $" + priceOfBurger + (priceOfBurger * TAX)
+  document.getElementById("end-price").innerHTML = "<div class="test"> la </div>Your total is: $" + priceOfBurger + (priceOfBurger * TAX)
 }
 
 */

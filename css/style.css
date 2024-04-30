@@ -15,6 +15,11 @@ body {
   margin: 20px auto;
 }
 
+.test {
+  background-color: rgb(0 0 0);
+  width: 40px;
+}
+
 .content {
   padding: 1%;
 }
@@ -29,8 +34,4 @@ body {
   content: "";
   display: table;
   clear: both;
-}
-
-img {
-  width: 300px;
 }

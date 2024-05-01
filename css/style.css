@@ -4,15 +4,23 @@
 */
 
 body {
-  background-color: rgb(255, 238, 192);
-  background-image: url("./images/burger-background.jpg")
+  background-image: url("../images/hamburger-background.jpg");
+  background-size: cover;
+  background-color: rgb(255 238 192);
+}
+
+.name-title {
+  font-family: fantasy;
+  color: rgb(208 40 2);
+  font-weight: 200;
+  text-align: center;
 }
 
 .innerbody {
   background-color: rgb(250 250 250);
   width: 500px;
   padding: 10px;
-  border: 5px solid rgb(208, 40, 2);
+  border: 5px solid rgb(208 40 2);
   margin: 20px auto;
 }
 
@@ -25,14 +33,13 @@ body {
   padding: 1%;
 }
 
-.column {
-  float: left;
-  width: 50%;
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
 }
 
-/* Clear floats after the columns */
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
+td, th {
+  text-align: left;
+  padding: 8px;
 }

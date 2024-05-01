@@ -90,10 +90,10 @@ function myButtonClicked() {
   }
 
   // output end price ** BEFORE TAX
-  document.getElementById("end-cost-text").innerHTML = "Price is:"
+  document.getElementById("end-cost-text").innerHTML = "SUBTOTAL"
   document.getElementById("end-cost").innerHTML = "$" + (priceOfBurger).toFixed(2) + " + PLUS TAX"
 
   // output end total
-  document.getElementById("end-price-text").innerHTML = "Your total is:"
+  document.getElementById("end-price-text").innerHTML = "TOTAL"
   document.getElementById("end-price").innerHTML = "$" + (priceOfBurger + (priceOfBurger * TAX)).toFixed(2)
 }
